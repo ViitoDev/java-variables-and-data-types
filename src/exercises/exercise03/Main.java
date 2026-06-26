@@ -5,8 +5,8 @@ public class Main {
         double grade1 = 0;
         double grade2 = 5;
         double grade3 = 10;
-        double calculateMedia = (grade1 + grade2 + grade3) / 3;
+        double average = (grade1 + grade2 + grade3) / 3;
 
-        System.out.println("The media is: " + calculateMedia);
+        System.out.println("The average is: " + average);
     }
 }

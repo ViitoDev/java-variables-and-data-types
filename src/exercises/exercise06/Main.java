@@ -8,10 +8,8 @@ public class Main {
             System.out.println("Price = " + price + "\nCategory = Economic");
         } else if (price <= 200) {
             System.out.println("Price = " + price + "\nCategory = Intermediate");
-        } else if (price > 200) {
-            System.out.println("Price = " + price + "\nCategory = Premium");
         } else {
-            System.out.println("Price not found.");
+            System.out.println("Price = " + price + "\nCategory = Premium");
         }
     }
 }
